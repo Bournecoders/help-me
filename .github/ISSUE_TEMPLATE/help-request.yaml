@@ -20,16 +20,16 @@ body:
   - type: input
     id: github
     attributes:
-      label: 🌐 Github Repo URL
-      description: Where does this code live?
+      label: Github Repo URL
+      description: Where does this code live? 🌐 
       placeholder: https://github.com/Bournecoders/help-me
     validations:
       required: true
   - type: textarea
     id: what-happened
     attributes:
-      label: 😫  What happened?
-      description: Also tell us, what did you expect to happen?
+      label: What happened?
+      description: Also tell us, what did you expect to happen? 😫 
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
@@ -37,8 +37,8 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: 💻 Laptop
-      description: What type of laptop do you have?
+      label: Laptop
+      description: What type of laptop do you have? 💻 
       options:
         - Mac
         - Windows
@@ -48,7 +48,7 @@ body:
   - type: dropdown
     id: browsers
     attributes:
-      label: 👩‍💻 What browsers are you seeing the problem on?
+      label: What browsers are you seeing the problem on?
       multiple: true
       options:
         - Firefox
@@ -58,13 +58,13 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: ⁉️ Relevant error output
-      description: Please copy and paste any error output. This will be automatically formatted into code, so no need for backticks.
+      label: Relevant error output
+      description: Please copy and paste any error output. This will be automatically formatted into code, so no need for backticks. 
       render: shell
   - type: checkboxes
     id: terms
     attributes:
-      label: 🕵️‍♂️ Have you asked Google about your problem? Or Stack Overflow?
+      label: Have you asked Google about your problem? Or Stack Overflow?
       description: It is good practice to find possible solutions first before raising an issue. Some stuggle is good 😛
       options:
         - label: I have tried to solve find solutions for this problem independently
