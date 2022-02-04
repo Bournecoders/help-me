@@ -12,7 +12,7 @@ body:
   - type: input
     id: course
     attributes:
-      label: Course Name 📚
+      label: '📚 Course Name'
       description: What course is this issue related to?
       placeholder: Intro to Web Developer
     validations:
@@ -20,7 +20,7 @@ body:
   - type: input
     id: github
     attributes:
-      label: 🌐  Github Repo URL
+      label: 🌐 Github Repo URL
       description: Where does this code live?
       placeholder: https://github.com/Bournecoders/help-me
     validations:
