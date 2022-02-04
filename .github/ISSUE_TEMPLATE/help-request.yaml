@@ -37,8 +37,8 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of laptop do you have?
+      label: Laptop
+      description: What type of laptop do you have?
       options:
         - Mac
         - Windows
