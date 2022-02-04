@@ -1,9 +1,7 @@
 name: Help me please!
 description: Ask for help
 title: "[Course Name]: What is your issue?"
-labels: ["bug"]
-assignees:
-  - timrooke1991
+labels: ["help wanted"]
 body:
   - type: markdown
     attributes:
