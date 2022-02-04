@@ -1,22 +1,30 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: Help me please!
+description: Ask for help
+title: "[Course Name]: What is your issue?"
+labels: ["bug"]
 assignees:
-  - octocat
+  - timrooke1991
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for asking for help! An instructor, classmate or member of the BourneCoders community will get back to you shortly
   - type: input
-    id: contact
+    id: course
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Course Name
+      description: What course is this issue related to?
+      placeholder: Intro to Web Developer
     validations:
-      required: false
+      required: true
+  - type: input
+    id: github
+    attributes:
+      label: Github Repo URL
+      description: Where does this code live?
+      placeholder: https://github.com/Bournecoders/help-me
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
@@ -30,10 +38,11 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of our software are you running?
+      description: What version of laptop do you have?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Mac
+        - Windows
+        - Chromebook
     validations:
       required: true
   - type: dropdown
@@ -49,14 +58,15 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Relevant error output
+      description: Please copy and paste any error output. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Have you asked Google about your problem? Or Stack Overflow?
+      description: It is good practice to find possible solutions first before raising an issue. Some stuggle is good 😛
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I have tried to solve find solutions for this problem independently
           required: true
+
