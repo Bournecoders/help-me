@@ -12,7 +12,7 @@ body:
     attributes:
       label: 'Course Name'
       description: What course is this issue related to? 📚 
-      placeholder: Intro to Web Developer
+      placeholder: Intro to Web Development
     validations:
       required: true
   - type: input
