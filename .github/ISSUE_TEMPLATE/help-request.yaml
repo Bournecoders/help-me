@@ -12,8 +12,8 @@ body:
   - type: input
     id: course
     attributes:
-      label: '📚 Course Name'
-      description: What course is this issue related to?
+      label: 'Course Name'
+      description: What course is this issue related to? 📚 
       placeholder: Intro to Web Developer
     validations:
       required: true
